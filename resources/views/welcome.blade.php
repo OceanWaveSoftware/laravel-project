@@ -82,7 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
 
-                    This sucks to be Laravel
+                    Welcome to Laravel 6
 
                 </div>
 
