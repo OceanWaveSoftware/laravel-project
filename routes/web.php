@@ -19,10 +19,12 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-get('about', function() {
+Route::get('about', function() {
 
 });
 
-get('Reports', function() {
+Route::get('reporting', function() {
 
 });
+
+Route::resource('reports', 'ReportsController');
