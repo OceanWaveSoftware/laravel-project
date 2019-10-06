@@ -28,3 +28,5 @@ Route::get('reporting', function() {
 });
 
 Route::resource('reports', 'ReportsController');
+
+# Just a change for commit testing
